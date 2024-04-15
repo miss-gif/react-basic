@@ -1,19 +1,9 @@
 import React from "react";
-import styled from "@emotion/styled";
 
-const Title = styled.div`
-  background: #eee;
-  font-size: 80px;
-`;
-
-const Main = () => {
-  const title = "리액트";
-
+const Main = props => {
   return (
     <div>
-      {title}
-
-      <Title>test</Title>
+      <h1>안녕하세요, 나는{props.title}입니다.</h1>
     </div>
   );
 };
