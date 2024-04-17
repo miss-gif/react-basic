@@ -1,7 +1,11 @@
-import Main from "./Main";
+import MainPage from "./pages/MainPage";
 
-function App() {
-  return <Main title="App에서 온 title값">Main의 칠드런</Main>;
-}
+const App = () => {
+  return (
+    <>
+      <MainPage />
+    </>
+  );
+};
 
 export default App;
